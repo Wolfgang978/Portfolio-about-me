@@ -1,0 +1,54 @@
+
+* {
+  --dark: rgb(0, 53, 16);
+  --light: lightgreen;
+}
+
+
+header {
+  background-color: var(--dark);
+  color: var(--light);
+}
+h1{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
+ul {
+  display: flex;
+}
+li {
+  border: 2px solid black;
+  padding: 2px;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
