@@ -15,36 +15,65 @@
     <h1>Portfolio</h1>
     <nav>
       <ul>
-        <li><a href="">About Me</a></li>
-        <li>My Work</li>
-        <li>Contact Me</li>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#myWork">My Work</a></li>
+        <li><a href="#contactMe">Contact Me</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <h2>Max Wright</h2>
+
+    <div class="divImage"><img class="aboutMeImg" src="./Assets/images/Max.JPG"
+        alt="A photograph of a man sitting on a wall. He is wearing blue jeans and a nice patterned button down short sleeve shirt.">
+      <img class="aboutMeImg" src="./Assets/images/Dog.jpg"
+        alt="A picture of a black fluffy dog. He is laying amongst fallen leaves and has a majestic air about him.">
+    </div>
     <section>
-      <h3 class="aboutMe">About Me</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, id, officia iure doloremque sunt tempore
-        nulla magni explicabo labore mollitia, ullam necessitatibus corporis laborum! Ipsa nihil ipsum placeat unde
-        dolorem.</p>
+      <h3 id="aboutMe">About Me</h3>
+      <p>I'm Max Wright. I have many different hobbies. I enjoy playing with my dog, Ciel. He is a beautiful black
+        labradoodle and he loves to run around.
+        One of my favorite things to do is play Ultimate Frisbee. I got into it in high school and have been playing
+        pick up as much as I can.
+        I worked at Panera Bread for around 3 years and I worked at Rogue Fitness for just under a year. Both were good
+        jobs that I gained good experiance from.
+
+      </p>
     </section>
-    <section>
-      <h3 class="myWork">My Work</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, id, officia iure doloremque sunt tempore
-        nulla magni explicabo labore mollitia, ullam necessitatibus corporis laborum! Ipsa nihil ipsum placeat unde
-        dolorem.</p>
+    <h3 id="myWork">My Work</h3>
+    <section class=myWork>
+
+      <div class="myWorkDiv">
+        <a class="myWorka" target="_blank" href="https://www.google.com/">
+          <img class="myWorkimg" src="./Assets/images/Files.jpg" alt="A picture of Files">
+        </a>
+        <a class="myWorka" target="_blank" href="https://www.google.com/">
+          <img class="myWorkimg" src="./Assets/images/Files.jpg" alt="A picture of Files">
+        </a>
+        <a class="myWorka" target="_blank" href="https://www.google.com/">
+          <img class="myWorkimg" src="./Assets/images/Files.jpg" alt="A picture of Files">
+        </a>
+        <a class="myWorka" target="_blank" href="https://www.google.com/">
+          <img class="myWorkimg" src="./Assets/images/Files.jpg" alt="A picture of Files">
+        </a>
+      </div>
     </section>
-    <section>
-      <h3 class="contactMe">Contact Me</h3>
-      <form action="">
-        <input type="text">
-        <input type="text">
-        <input type="text">
+    <h3 id="contactMe">Contact Me</h3>
+    <section class="contactMe">
+
+      <form action="" type="submit">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="email" placeholder="Email">
         <button type="submit">Submit</button>
       </form>
     </section>
   </main>
+  <footer>
+    <h4>My Info</h4>
+    <p>Email: Email@Email.com</p>
+    <p>Phone: 555-555-5555</p>
+  </footer>
 </body>
 
 </html>
