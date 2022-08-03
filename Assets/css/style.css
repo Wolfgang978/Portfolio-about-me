@@ -76,6 +76,7 @@ a:link, a:visited {
 a:hover {
     color: lime;
 }
+
 .divImage {
   display: flex;
   justify-content: center;
@@ -104,27 +105,76 @@ a:hover {
  
 }
 
-.myWorka:link, .myworka {
+
+.myWorka:link, .myWorka {
   color: transparent;
 }
 
+.myWorkimg:hover {
+  border: black solid 5px;
+
+}
 
 
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
 
 
+.textDeceration {
+  position: absolute;
+  top: 345px;
+  left: 20px;
+  background-color: white;
+  padding: 10px;
+}
+@media screen and (max-width: 870px) {
+  ul {
+    flex-direction: column;
+  }
+  nav {
+    justify-content: center;
+  }
+  h2 {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .myWorkimg {
+    width: 96%;
+    
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .textDeceration {
+    top: 20px;
+  }
+  .divImage {
+    flex-direction: column;
+  }
+  .aboutMeImg {
+    width: 96%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+@media screen and (max-width: 458px) {
+  .textDeceration {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 386px) {
+    .textDeceration {
+      font-size: 16px;
+    }
+    body {
+      font-size: 20px;
+    }
+}
+  
